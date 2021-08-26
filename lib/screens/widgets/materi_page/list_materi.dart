@@ -1,4 +1,4 @@
-import 'package:fisku_app/demo/daftar_materi.dart';
+import 'package:fisku_app/materi/daftar_materi.dart';
 import 'package:fisku_app/screens/widgets/materi_card.dart';
 import 'package:flutter/material.dart';
 

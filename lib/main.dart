@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
         fontFamily: 'Poppins',
+        textTheme: TextTheme(
+          headline1: TextStyle(),
+        ),
       ),
       home: HomePage(),
     );
