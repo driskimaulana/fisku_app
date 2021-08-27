@@ -41,7 +41,7 @@ List<ModelMateri> demoData = [
     ],
   ),
   ModelMateri(
-    judul: 'Optika',
+    judul: 'Optik I',
     desc: 'Merupakan gambaran perilaku, sifat, dan interaksi cahaya.',
     materi: [
       'bab5/optik_001-min.png',
@@ -88,6 +88,147 @@ List<ModelMateri> demoData = [
       'bab9/lidin_004-min.png',
       'bab9/lidin_005-min.png',
       'bab9/lidin_006-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gerak dengan Analisis Vektor',
+    desc: 'Dalam vektor, terdapat dua komponen utama',
+    materi: [
+      'bab10/gervek_001-min.png',
+      'bab10/gervek_002-min.png',
+      'bab10/gervek_003-min.png',
+      'bab10/gervek_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gerak Parabola',
+    desc: 'Gabungan gerak GLB dengan derak GLBB.',
+    materi: [
+      'bab11/parab_001-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Hukum Gravitasi',
+    desc:
+        'Gaya tarik-menarik dua benda dengan nilai berbanding lurus dengan massa.',
+    materi: [
+      'bab12/gravi_001-min.png',
+      'bab12/gravi_002-min.png',
+      'bab12/gravi_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gerak Harmoni',
+    desc:
+        'Gerak bolak-balik suatu benda yang melewati titik keseimbangan tertentu.',
+    materi: [
+      'bab13/harm_001-min.png',
+      'bab13/harm_002-min.png',
+      'bab13/harm_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Momentum dan Impuls',
+    desc: 'Momentum adalah ukuran kesukaran untuk memberhentikan gerak benda.',
+    materi: [
+      'bab14/moment_001-min.png',
+      'bab14/moment_002-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Fluida Statis',
+    desc: 'Merupakan fluida yang berada dalam fase tidak bergerak atau diam.',
+    materi: [
+      'bab15/flsta_001-min.png',
+      'bab15/flsta_002-min.png',
+      'bab15/flsta_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Fluida Dinamis',
+    desc: 'Merupakan fluida yang bergerak atau tidak diam.',
+    materi: [
+      'bab16/fldin_001-min.png',
+      'bab16/fldin_002-min.png',
+      'bab16/fldin_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gelombang',
+    desc: 'Merupakan getaran yang merambat tanpa memindahkan partikel.',
+    materi: [
+      'bab17/glmb_001-min.png',
+      'bab17/glmb_002-min.png',
+      'bab17/glmb_003-min.png',
+      'bab17/glmb_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gelombang Bunyi',
+    desc: 'Merupakan salahsatu gelombang mekanik serta longitudinal.',
+    materi: [
+      'bab18/bunyi_001-min.png',
+      'bab18/bunyi_002-min.png',
+      'bab18/bunyi_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Gelombang Elektromagnetik',
+    desc: 'Gelombang yang tidak memerlukan medium untuk merambat.',
+    materi: [
+      'bab19/glktro_001-min.png',
+      'bab19/glktro_002-min.png',
+      'bab19/glktro_003-min.png',
+      'bab19/glktro_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Optik II',
+    desc:
+        'Membahas kuantitasi cahaya, yaitu difraksi, inferensi, dan polarisasi.',
+    materi: [
+      'bab20/optik2_001-min.png',
+      'bab20/optik2_002-min.png',
+      'bab20/optik2_003-min.png',
+      'bab20/optik2_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Listrik Statis',
+    desc: 'Merupkan listrik yang tidak mengalir.',
+    materi: [
+      'bab21/lista_001-min.png',
+      'bab21/lista_002-min.png',
+      'bab21/lista_003-min.png',
+      'bab21/lista_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Induksi Magnet',
+    desc: 'Merupakan besar medan magnet yang ditimbulkan arus listrik.',
+    materi: [
+      'bab22/mgnt_001-min.png',
+      'bab22/mgnt_002-min.png',
+      'bab22/mgnt_003-min.png',
+      'bab22/mgnt_004-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Induksi Elektromagnetik',
+    desc: 'Fenomena timbulnya arus listrik karena perubahan fluks magnet.',
+    materi: [
+      'bab23/elmgn_001-min.png',
+      'bab23/elmgn_002-min.png',
+      'bab23/elmgn_003-min.png',
+    ],
+  ),
+  ModelMateri(
+    judul: 'Listrik Bolak-Balik',
+    desc: 'Merupakan hasil dari induksi elektromagnetik.',
+    materi: [
+      'bab24/lisbo_001-min.png',
+      'bab24/lisbo_002-min.png',
+      'bab24/lisbo_003-min.png',
     ],
   ),
 ];

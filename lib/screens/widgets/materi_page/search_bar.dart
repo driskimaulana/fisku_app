@@ -1,14 +1,35 @@
+import 'package:fisku_app/materi/daftar_materi.dart';
+import 'package:fisku_app/models/materi_model.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SearchBar extends StatefulWidget {
-  const SearchBar({Key? key}) : super(key: key);
+  List<ModelMateri> foundMateri;
+  SearchBar({Key? key, required this.foundMateri}) : super(key: key);
 
   @override
   _SearchBarState createState() => _SearchBarState();
 }
 
 class _SearchBarState extends State<SearchBar> {
+  // filtering function
+  void _runFilter(String enteredKeyword) {
+    List<ModelMateri> results = [];
+    if (enteredKeyword.isEmpty) {
+      results = demoData;
+    } else {
+      results = demoData
+          .where((i) =>
+              i.judul.toLowerCase().contains(enteredKeyword.toLowerCase()))
+          .toList();
+    }
+
+    // refresh UI
+    setState(() {
+      widget.foundMateri = results;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,6 +38,7 @@ class _SearchBarState extends State<SearchBar> {
       ),
       height: 40.0,
       child: TextFormField(
+        onChanged: (value) => _runFilter(value),
         decoration: InputDecoration(
           suffixIcon: IconButton(
             onPressed: () {

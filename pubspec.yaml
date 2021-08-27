@@ -56,6 +56,21 @@ flutter:
     - assets/images/materi/bab7/
     - assets/images/materi/bab8/
     - assets/images/materi/bab9/
+    - assets/images/materi/bab10/
+    - assets/images/materi/bab11/
+    - assets/images/materi/bab12/
+    - assets/images/materi/bab13/
+    - assets/images/materi/bab14/
+    - assets/images/materi/bab15/
+    - assets/images/materi/bab16/
+    - assets/images/materi/bab17/
+    - assets/images/materi/bab18/
+    - assets/images/materi/bab19/
+    - assets/images/materi/bab20/
+    - assets/images/materi/bab21/
+    - assets/images/materi/bab22/
+    - assets/images/materi/bab23/
+    - assets/images/materi/bab24/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
